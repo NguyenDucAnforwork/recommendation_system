@@ -119,9 +119,9 @@ if function_option == "Get recommendations by Director":
             st.text(recommended_movie_names[4])
             st.image(recommended_movie_posters[4])
 
-movies_dict = pickle.load(open('movies_dict.pkl', 'rb'))
-movies = pd.DataFrame(movies_dict)
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+# movies_dict = pickle.load(open('movies_dict.pkl', 'rb'))
+# movies = pd.DataFrame(movies_dict)
+# similarity = pickle.load(open('similarity.pkl', 'rb'))
 
-movie_list = movies['title'].values
-director = movies['crew'].values
+# movie_list = movies['title'].values
+# director = movies['crew'].values
